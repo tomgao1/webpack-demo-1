@@ -3,10 +3,10 @@ import jpg from './assets/2.jpg'
 console.log(jpg)
 
 const div = document.getElementById('app')
-console.log(div)
-div.innerHTML = `
-<img src="${jpg}">
-`
+//console.log(div)
+//div.innerHTML = `
+//<img src="${jpg}">
+//`
 
 const button = document.createElement('button')
 button.innerText = '懒加载'
