@@ -3,6 +3,7 @@ import jpg from './assets/2.jpg'
 console.log(jpg)
 
 const div = document.getElementById('app')
+
 //console.log(div)
 //div.innerHTML = `
 //<img src="${jpg}">
